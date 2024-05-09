@@ -4,8 +4,6 @@ A complete example of a "CRUD" service built with SpringBoot + PostgreSQL
 
 ### Endpoints 
 
-#### HTML
-
 |URL|Description|
 |---|---|
 |http://localhost:8085/ | Base URL |
