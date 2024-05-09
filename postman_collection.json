@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "a18e0faf-0242-4f68-80cd-54f049a0f505",
+		"name": "SpringBoot-CRUD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "4612624"
+	},
+	"item": [
+		{
+			"name": "Students - GET ALL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8085/api/students"
+			},
+			"response": []
+		},
+		{
+			"name": "Students - Single GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8085/api/students/406"
+			},
+			"response": []
+		},
+		{
+			"name": "Students - SearchBy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8085/api/students/search/402"
+			},
+			"response": []
+		},
+		{
+			"name": "Student - Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ravi K\",\r\n    \"dob\": \"2017-01-01\",\r\n    \"doj\": \"2022-01-01\",\r\n    \"className\": \"IIT\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8085/api/students"
+			},
+			"response": []
+		},
+		{
+			"name": "Student - Update",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ravi\",\r\n    \"dob\": \"2016-01-01\",\r\n    \"doj\": \"2022-01-01\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8085/api/students/4520"
+			},
+			"response": []
+		},
+		{
+			"name": "Student - Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Sravan\",\r\n    \"dob\": \"2017-01-01\",\r\n    \"doj\": \"2022-01-01\",\r\n    \"class_name\": \"I\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8085/api/students/405"
+			},
+			"response": []
+		}
+	]
+}
