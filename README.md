@@ -17,4 +17,4 @@ A complete example of a "CRUD" service built with SpringBoot + PostgreSQL
 |`GET`|http://localhost:8085/api/students | Get Student List |
 |`GET`|http://localhost:8085/api/students/{studentId} | Get All Students |
 |`DELETE`|http://localhost:8085/api/students/{studentId} | Delete Student by ID |
-|`GET`|http://localhost:8085/api/students/{searchValue} | Search Students with ID or Name |
+|`GET`|http://localhost:8085/api/students/search/{searchValue} | Search Students with ID or Name |
